@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l3I2RZWClDNVEUU077yGj8qkao9WbVzf/d9oNcwpKqtVCJLDbl1z6kZC507KKM3KrX+f+wyFG1b1+kIy/IquNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\LabCompis\\LabCompis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

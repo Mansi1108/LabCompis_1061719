@@ -1,0 +1,13 @@
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.exe
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.deps.json
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.runtimeconfig.json
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.runtimeconfig.dev.json
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.dll
+C:\Users\PC\source\repos\LabCompis\bin\Debug\netcoreapp3.1\LabCompis.pdb
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.AssemblyInfo.cs
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.dll
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.pdb
+C:\Users\PC\source\repos\LabCompis\obj\Debug\netcoreapp3.1\LabCompis.genruntimeconfig.cache
