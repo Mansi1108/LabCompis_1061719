@@ -14,7 +14,7 @@ El ejecutable se encuentra en bin/Debug/netcoreapp3.1
 | Regla | First |
 | ------ | ------ |
 | E -> TE' | First (E) = First(T) = First(F) = First(G) = {-,symbol,(} |
-| E'-> +TE' / E'->-TE' / E'-> e | First (E') = {+,-,e} |
+| E'-> +TE' "|" E'->-TE' / E'-> e | First (E') = {+,-,e} |
 | T -> FT'| First(T) = First(F) = First(G) = {-,symbol,(} |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
