@@ -14,27 +14,19 @@ El ejecutable se encuentra en bin/Debug/netcoreapp3.1
 | Regla | First |
 | ------ | ------ |
 | E -> TE' | First (E) = First(T) = First(F) = First(G) = {-,symbol,(} |
-| E'-> +TE' "|" E'->-TE' / E'-> e | First (E') = {+,-,e} |
+| E'-> +TE' l TE' l e | First (E') = {+,-,e} |
 | T -> FT'| First(T) = First(F) = First(G) = {-,symbol,(} |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| T'-> *FT' l /FT' l e | First(T') = {*,/,e} |
+| F -> -F l G | First(F) = First(F') = {-,symbol,(} |
+| G -> symbolG' l (E) | First(G) = {symbol,(} |
+| G' -> symbolG' l e | First(G) = {symbol,(} |
  
-
-
-
-
-
-
-
-T'-> *FT' | /FT' | e
-First(T') = {*,/,e}
-
-F -> -F | G
-First(F) = First(F') = {-,symbol,(}
-
-G -> symbolG' | (E) 
-First(G) = {symbol,(}
-
-G' -> symbolG' | e 
-First(G) = {symbol,(}
+ ## Tokens
+- Plus = '+'
+- Star = '*'
+- Div = '/'
+- Minus = '-'
+- LParen = '('
+- RParen = ')'
+- EOF = \0
+- Numero = 0-9
